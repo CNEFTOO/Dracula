@@ -1,0 +1,116 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f8ff;
+  background-image: radial-gradient(circle at 10% 20%, rgba(216, 241, 255, 0.46) 0%, rgba(231, 242, 255, 0.25) 100%);
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 20px;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.zoomeye-logo {
+  height: 40px;
+}
+
+.text-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+.form-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.login-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-form-button {
+  width: 100%;
+  height: 40px;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  margin-top: 10px;
+}
+
+.terms-container {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.terms-text {
+  font-size: 12px;
+  color: #666;
+}
+
+.terms-link {
+  color: #1890ff;
+  font-size: 12px;
+}
+
+.social-login {
+  margin: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bottom-link {
+  color: #1890ff;
+  font-size: 14px;
+}
+
+/* 响应式调整 */
+@media (max-width: 576px) {
+  .login-content {
+    padding: 20px 15px;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+}
